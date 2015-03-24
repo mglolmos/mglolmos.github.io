@@ -47,6 +47,43 @@ url:
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+#Configuration of Slides
+collections:
+  slides:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: slide
+      reveal:
+        controls: true
+        progress: true
+        slideNumber: false
+        history: true
+        keyboard: true
+        overview: true
+        center: true
+        touch: true
+        loop: false
+        rtl: false
+        fragments: true
+        embedded: false
+        autoSlide: 0
+        autoSlideStoppable: true
+        mouseWheel: false
+        hideAddressBar: true
+        previewLinks: false
+        transition: default
+        transitionSpeed: default
+        backgroundTransition: default
+        viewDistance: 3
+        parallaxBackgroundImage:
+        parallaxBackgroundSize:
+        theme: default
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
